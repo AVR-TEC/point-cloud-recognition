@@ -43,7 +43,7 @@ pip install sklearn scipy
 $ roslaunch sensor_stick training.launch
 ```
 - On another terminal run this:
-````
+```
 $ rosrun sensor_stick capture_features.py
 ```
 - This script spawns each object in random orientations (default 20 orientations per object) 
